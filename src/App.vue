@@ -4,7 +4,7 @@
       <span>Autotrader - On The Lot</span>
     </header>
     <main>
-      <img src="./assets/logo.png" alt="Vue.js PWA">
+      <img src="../static/img/icons/mstile-150x150.png" alt="Vue.js PWA">
       <router-view></router-view>
     </main>
   </div>
