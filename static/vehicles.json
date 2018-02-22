@@ -1,0 +1,82 @@
+{
+  "honda-civic-type-r": {
+    "make": "honda-civic-type-r",
+    "years": [{
+      "2017": {
+        "jan": 30000,
+        "feb": 15000,
+        "march": 12000
+      },
+      "2016": {
+        "jan": 22000,
+        "feb": 18000,
+        "march": 17000
+      },
+      "2015": {
+        "jan": 16000,
+        "feb": 13000,
+        "march": 11000
+      }
+    }]
+  },
+  "honda-accord-euro": {
+    "make": "honda-accord-euro",
+    "years": [{
+      "2017": {
+        "jan": 45000,
+        "feb": 34000,
+        "march": 29000
+      },
+      "2016": {
+        "jan": 25000,
+        "feb": 20000,
+        "march": 18000
+      },
+      "2015": {
+        "jan": 17000,
+        "feb": 15000,
+        "march": 13000
+      }
+    }]
+  },
+  "toyota-corolla-ascent": {
+    "make": "toyota-corolla-ascent",
+    "years": [{
+      "2017": {
+        "jan": 25000,
+        "feb": 15000,
+        "march": 12000
+      },
+      "2016": {
+        "jan": 20000,
+        "feb": 18000,
+        "march": 12000
+      },
+      "2015": {
+        "jan": 16000,
+        "feb": 13000,
+        "march": 8000
+      }
+    }]
+  },
+  "range-rover-evoque": {
+    "make": "range-rover-evoque",
+    "years": [{
+      "2017": {
+        "jan": 70000,
+        "feb": 62000,
+        "march": 55000
+      },
+      "2016": {
+        "jan": 50000,
+        "feb": 49000,
+        "march": 45000
+      },
+      "2015": {
+        "jan": 40000,
+        "feb": 30000,
+        "march": 29000
+      }
+    }]
+  }
+}

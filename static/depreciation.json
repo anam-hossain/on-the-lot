@@ -1,0 +1,152 @@
+{
+  "honda-civic-type-r": {
+    "make": "honda-civic-type-r",
+    "depreciation": [
+      {
+        "year": 2017,
+        "cost": 34000
+      },
+      {
+        "year": 2016,
+        "cost": 30000
+      },
+      {
+        "year": 2015,
+        "cost": 28000
+      },
+      {
+        "year": 2014,
+        "cost": 26000
+      },
+      {
+        "year": 2013,
+        "cost": 24000
+      },
+      {
+        "year": 2012,
+        "cost": 19000
+      },
+      {
+        "year": 2011,
+        "cost": 16000
+      },
+      {
+        "year": 2010,
+        "cost": 13000
+      }
+    ]
+  },
+  "honda-accord-euro": {
+    "make": "honda-accord-euro",
+    "depreciation": [{
+        "year": 2017,
+        "cost": 28000
+      },
+      {
+        "year": 2016,
+        "cost": 26000
+      },
+      {
+        "year": 2015,
+        "cost": 22000
+      },
+      {
+        "year": 2014,
+        "cost": 19000
+      },
+      {
+        "year": 2013,
+        "cost": 16000
+      },
+      {
+        "year": 2012,
+        "cost": 13000
+      },
+      {
+        "year": 2011,
+        "cost": 11000
+      },
+      {
+        "year": 2010,
+        "cost": 9000
+      }
+    ]
+  },
+  "toyota-corolla-ascent": {
+    "make": "toyota-corolla-ascent",
+    "depreciation": [{
+        "year": 2017,
+        "cost": 22000
+      },
+      {
+        "year": 2016,
+        "cost": 16000
+      },
+      {
+        "year": 2015,
+        "cost": 15000
+      },
+      {
+        "year": 2014,
+        "cost": 14000
+      },
+      {
+        "year": 2014,
+        "cost": 11000
+      },
+      {
+        "year": 2013,
+        "cost": 10000
+      },
+      {
+        "year": 2012,
+        "cost": 9000
+      },
+      {
+        "year": 2011,
+        "cost": 8000
+      },
+      {
+        "year": 2010,
+        "cost": 7000
+      }
+    ]
+  },
+  "range-rover-evoque": {
+    "make": "range-rover-evoque",
+    "depreciation": [
+      {
+        "year": 2017,
+        "cost": 65000
+      },
+      {
+        "year": 2016,
+        "cost": 55000
+      },
+      {
+        "year": 2015,
+        "cost": 50000
+      },
+      {
+        "year": 2014,
+        "cost": 45000
+      },
+      {
+        "year": 2013,
+        "cost": 30000
+      },
+      {
+        "year": 2012,
+        "cost": 20000
+      },
+      {
+        "year": 2011,
+        "cost": 19000
+      },
+      {
+        "year": 2010,
+        "cost": 16000
+      }
+    ]
+  }
+}

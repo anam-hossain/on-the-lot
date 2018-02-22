@@ -1,0 +1,62 @@
+{
+  "mazda-rx8-2010": {
+    "make": "mazda-rx8-2010",
+    "ctp": {
+      "avg_cost": 600,
+      "3yr_cost": 1300
+    },
+    "tyres": {
+      "avg_cost": 600,
+      "3yr_cost": 800
+    },
+    "servicing_costs": {
+      "avg_cost": 400,
+      "3yr_cost": 650
+    }
+  },
+  "mazda-rx8-2011": {
+    "make": "mazda-rx8-2011",
+    "ctp": {
+      "avg_cost": 800,
+      "3yr_cost": 1100
+    },
+    "tyres": {
+      "avg_cost": 400,
+      "3yr_cost": 650
+    },
+    "servicing_costs": {
+      "avg_cost": 300,
+      "3yr_cost": 700
+    }
+  },
+  "mazda-rx8-2012": {
+    "make": "mazda-rx8-2012",
+    "ctp": {
+      "avg_cost": 300,
+      "3yr_cost": 700
+    },
+    "tyres": {
+      "avg_cost": 400,
+      "3yr_cost": 670
+    },
+    "servicing_costs": {
+      "avg_cost": 600,
+      "3yr_cost": 800
+    }
+  },
+  "mazda-rx8-2013": {
+    "make": "mazda-rx8-2013",
+    "ctp": {
+      "avg_cost": 450,
+      "3yr_cost": 1100
+    },
+    "tyres": {
+      "avg_cost": 400,
+      "3yr_cost": 670
+    },
+    "servicing_costs": {
+      "avg_cost": 475,
+      "3yr_cost": 629
+    }
+  }
+}
