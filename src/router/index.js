@@ -1,7 +1,7 @@
 import Vue from 'vue'
 import Router from 'vue-router'
-import Hello from '@/components/Hello'
-import CameraView from "@/components/CameraView";
+import Home from '@/components/Home'
+import PlateScanner from "@/components/PlateScanner";
 
 Vue.use(Router)
 
@@ -9,13 +9,13 @@ export default new Router({
   routes: [
     {
       path: "/",
-      name: "Hello",
-      component: Hello
+      name: "Home",
+      component: Home
     },
     {
-      path: "/camera",
-      name: "camera",
-      component: CameraView
+      path: "/plate-scanner",
+      name: "PlateScanner",
+      component: PlateScanner
     }
   ]
 });
