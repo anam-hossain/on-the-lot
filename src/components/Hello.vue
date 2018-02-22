@@ -1,5 +1,8 @@
 <template>
   <div class="hello">
+      <router-link  to="/camera">
+        <span>Camera</span>
+      </router-link>
     <h1>{{ msg }}</h1>
     <h2>Essential Links CUSTOM</h2>
     <ul>
