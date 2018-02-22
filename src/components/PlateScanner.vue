@@ -40,7 +40,6 @@
             .progress(message => console.log(message))
             .catch(err => console.error(err))
             .then(result => {
-              console.log(result);
               this.plate = result.text;
             })
         })
@@ -55,11 +54,11 @@
 
 <style scoped>
     .camera-modal {
-      width: 100%;
-      height: 100%;
-      top: 0;
-      left: 0;
-      position: absolute;
+      width: 80%;
+      height: 90%;
+      top: 20px;
+      left: 10px;
+      /* position: absolute; */
       background-color: white;
       z-index: 10;
     }
