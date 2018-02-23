@@ -15,12 +15,15 @@
             </div>
             <div class="price-chart col-12">
                 <img :src="chart_url">
+                <a href="#">Dealer promotions for this car</a>
             </div>
             <div class="car-data price-minmax col-12">
                 <dl v-for="price in prices">
                     <dt>{{ price.name }}</dt>
                     <dd>${{ price.value }}</dd>
                 </dl>
+                <a class="btn btn-primary btn-block" role="button">View similar cars at this dealer</a>
+
             </div>
             <div class="car-data price-depreciation col-12">
                 <dl>
@@ -28,7 +31,7 @@
                     <dd>$84,999 &#8594; $79,500</dd>
                 </dl>
                 <dl>
-                    <dt style="display: inline">Time on the lot</dt>
+                    <dt style="display: inline">Time on lot</dt>
                     <dd style="display: inline">29 days</dd>
                 </dl>
             </div>
@@ -118,11 +121,19 @@
     .price-chart img {
         width: 100%;
     }
+    .price-chart a {
+        display: block;
+        margin-top: 10px;
+        text-decoration: underline !important;
+    }
     .car-data {
         margin-top: 15px;
         padding-top: 15px;
         border-top: lightgrey solid 2px;
         text-align: left;
+    }
+    .price-minmax .btn {
+        color: white;
     }
     .price-minmax dt, .price-minmax dd,
     .car-history dt, .car-history dd {
