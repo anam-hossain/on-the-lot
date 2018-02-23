@@ -3,6 +3,10 @@
       <router-link  to="/plate-scanner">
         <span>Scan License Plate</span>
       </router-link>
+    <router-link  to="/car-detail">
+      <br>
+      <span>Car-detail</span>
+    </router-link>
       <h1>{{ msg }}</h1>
     <form>
       <div class="form-group home-page">
