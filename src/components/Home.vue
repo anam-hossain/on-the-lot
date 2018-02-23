@@ -73,7 +73,7 @@ export default {
     },
 
     getAddress() {
-      axios.get(`http://maps.googleapis.com/maps/api/geocode/json?latlng=${this.lat},${this.long}&sensor=true`)
+      axios.get(`https://maps.googleapis.com/maps/api/geocode/json?latlng=${this.lat},${this.long}&sensor=true`)
         .then((response) => {
           this.address = response.data.results[0].formatted_address;
         })
