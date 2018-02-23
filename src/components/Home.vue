@@ -8,7 +8,7 @@
         <img class="logo" src="/static/img/icons/mstile-150x150.png"></img>
       </div>
     <form class="col">
-      <div class="form-group ">
+      <div class="form-group">
         <label for="exampleFormControlInput1">Search cars</label>
         <select class="form-control" id="exampleFormControlSelect1" placeholder="car">
           <option>Honda</option>
