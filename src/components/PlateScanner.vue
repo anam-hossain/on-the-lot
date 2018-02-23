@@ -4,6 +4,9 @@
       <video ref="video" class="camera-stream"/>
       <div class="camera-modal-container">
         <button class="btn btn-lg btn-success" @click="capture">Scan</button>
+        <div class="cta">
+          <img src="/static/img/content/allianz-CTA.png">
+        </div>
         <br>
         <div v-if="processing" class="alert alert-info" role="alert">
           Processing...
@@ -118,5 +121,12 @@
   .btn span {
     color: white;
     font-weight: bold;
+  }
+  .cta {
+    margin-top: 20px;
+    text-align: center;
+  }
+  .cta img {
+    width: 50%;
   }
 </style>
