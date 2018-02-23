@@ -22,6 +22,9 @@
         <li class="list-group-item">Kms: 5000</li>
         <li class="list-group-item">Price: $80,000</li>
       </ul>
+      <a class="btn btn-primary btn-lg btn-block" role="button"><router-link  to="/car-detail">
+        <span>View Car detail</span>
+      </router-link></a>
     </div>
   </div>
 </template>
@@ -112,4 +115,8 @@
     .take-picture-button {
       display: flex;
     }
+  .btn span {
+    color: white;
+    font-weight: bold;
+  }
 </style>
