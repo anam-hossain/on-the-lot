@@ -3,39 +3,49 @@
       <router-link  to="/plate-scanner">
         <span>Scan License Plate</span>
       </router-link>
-      <form>
-            <h1>{{ msg }}</h1>
-  <div class="form-group">
-    <label for="exampleFormControlInput1">Search cars</label>
-    <input type="email" class="form-control" id="exampleFormControlInput1" placeholder="name@example.com">
-  </div>
-  <div class="form-group">
-    <label for="exampleFormControlSelect1">Example select</label>
-    <select class="form-control" id="exampleFormControlSelect1">
-      <option>Default select</option>
-      <option>1</option>
-      <option>2</option>
-      <option>3</option>
-      <option>4</option>
-      <option>5</option>
-    </select>
-  </div>
-  <div class="form-group">
-    <label for="exampleFormControlSelect2">Example multiple select</label>
-    <select multiple class="form-control" id="exampleFormControlSelect2">
-      <option>1</option>
-      <option>2</option>
-      <option>3</option>
-      <option>4</option>
-      <option>5</option>
-    </select>
-  </div>
-  <div class="form-group">
-    <label for="exampleFormControlTextarea1">Example textarea</label>
-    <textarea class="form-control" id="exampleFormControlTextarea1" rows="3"></textarea>
-  </div>
-</form>
-  </div>
+      <h1>{{ msg }}</h1>
+    <form>
+      <div class="form-group home-page">
+        <label for="exampleFormControlInput1">Search cars</label>
+        <select class="form-control" id="exampleFormControlSelect1" placeholder="car">
+          <option>Honda</option>
+        </select>
+      </div>
+      <div class="form-group home-page">
+        <select class="form-control" id="exampleFormControlSelect1" placeholder="type">
+          <option>Accord</option>
+          <option>Civic</option>
+          <option>CRV</option>
+          <option>City</option>
+          <option>Euro</option>
+        </select>
+      </div>
+      <div class="form-group home-page">
+        <select class="form-control" id="exampleFormControlSelect1" placeholder="price">
+          <option>Less than $10,000</option>
+          <option>Less than $15,000</option>
+          <option>Less than $20,000</option>
+          <option>Less than $25,000</option>
+          <option>Less than $30,000</option>
+          <option>Less than $35,000</option>
+        </select>
+      </div>
+      <div class="form-group home-page">
+        <select class="form-control" id="exampleFormControlSelect1" placeholder="location">
+          <option>NSW - All</option>
+          <option>NSW - Central Coast</option>
+          <option>NSW - Central West</option>
+          <option>NSW - Sydney </option>
+          <option>NSW - South Coast</option>
+          <option>NSW - North West</option>
+        </select>
+      </div>
+      <button type="button" class="btn btn-primary btn-lg btn-dark home-page">Search Cars</button>
+    </form>
+
+</div>
+
+
 </template>
 
 <script>
@@ -67,5 +77,10 @@ li {
 
 a {
   color: #35495E;
+}
+
+.home-page {
+  padding-left: 50px;
+  padding-right: 50px;
 }
 </style>
