@@ -34,6 +34,7 @@
 
 <script>
   // import Tesseract from 'tesseract.js'
+  import router from '@/router';
 
   export default {
     data () {
@@ -66,6 +67,8 @@
           this.plate = "DDN 29B";
           this.captured = true;
           this.processing = false;
+          window.location = "/#/car-detail";
+          //this.showDetails();
           // Tesseract.recognize(blob)
           //   .progress(message => console.log(message))
           //   .catch(err => console.error(err))
@@ -87,6 +90,7 @@
         }
       }
     },
+
     destroyed () {
       const tracks = this.mediaStream.getTracks()
       tracks.map(track => track.stop())
