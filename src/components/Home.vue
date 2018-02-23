@@ -3,6 +3,11 @@
       <router-link to="/plate-scanner">
         <span>Scan License Plate</span>
       </router-link>
+      <router-link  to="/car-detail">
+        <br>
+        <span>Car-detail</span>
+      </router-link>
+
       <div class="">
         <img class="logo" src="/static/img/icons/mstile-150x150.png"></img>
       </div>
