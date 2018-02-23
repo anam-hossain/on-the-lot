@@ -3,7 +3,6 @@
       <router-link to="/plate-scanner">
         <span>Scan License Plate</span>
       </router-link>
-      <h1>{{ msg }}</h1>
       <div class="">
         <img class="logo" src="/static/img/icons/mstile-150x150.png"></img>
       </div>
@@ -35,7 +34,7 @@
       </div>
       <div class="form-group">
         <i class="fi-target-two"></i>
-        <input type="text" class="form-control " id="exampleFormControlInput1" placeholder="location">
+        <input @click="getLocation" v-model="address" type="text" class="form-control " id="exampleFormControlInput1" placeholder="location">
       </div>
       <button type="button" class="btn btn-primary btn-lg btn-dark">Search</button>
       <div class="dealer">
@@ -48,11 +47,38 @@
 </template>
 
 <script>
+import axios from 'axios';
+
 export default {
   name: 'hello',
   data () {
     return {
-      msg: 'Welcome to Autotrader'
+      lat: '',
+      long: '',
+      address: ''
+    }
+  },
+  methods: {
+    getLocation () {
+      if (navigator.geolocation) {
+        navigator.geolocation.getCurrentPosition((position) => {
+          this.lat = position.coords.latitude;
+          this.long = position.coords.longitude;
+          this.getAddress();
+        });
+      } else { 
+        alert("Geolocation not supported");
+      }
+    },
+
+    getAddress() {
+      axios.get(`http://maps.googleapis.com/maps/api/geocode/json?latlng=${this.lat},${this.long}&sensor=true`)
+        .then((response) => {
+          this.address = response.data.results[0].formatted_address;
+        })
+        .catch(function (error) {
+          console.log(error);
+        });
     }
   }
 }
