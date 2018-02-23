@@ -24,7 +24,7 @@
             </div>
             <div class="car-data price-depreciation col-12">
                 <dl>
-                    <dt>Price depreciation 15 Feb 2018</dt>
+                    <dt>Price drop on 15 Feb 2018</dt>
                     <dd>$84,999 &#8594; $79,500</dd>
                 </dl>
                 <dl>
@@ -40,7 +40,7 @@
                     <dd>&#10004;</dd>
                 </dl>
                 <dl>
-                    <dt>Finance owned check</dt>
+                    <dt>Finance owed check</dt>
                     <dd>&#10004;</dd>
                 </dl>
                 <dl>
@@ -128,6 +128,9 @@
     .car-history dt, .car-history dd {
         padding: 0 5px;
         display: inline;
+    }
+    .car-history dd {
+        color: #09F109;
     }
     .car-history dl {
         margin-bottom: 0;
