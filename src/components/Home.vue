@@ -1,17 +1,20 @@
 <template>
-  <div class="hello">
-      <router-link  to="/plate-scanner">
+  <div class="hello col">
+      <router-link to="/plate-scanner">
         <span>Scan License Plate</span>
       </router-link>
       <h1>{{ msg }}</h1>
-    <form>
-      <div class="form-group home-page">
+      <div class="">
+        <img class="logo" src="/static/img/icons/mstile-150x150.png"></img>
+      </div>
+    <form class="col">
+      <div class="form-group ">
         <label for="exampleFormControlInput1">Search cars</label>
         <select class="form-control" id="exampleFormControlSelect1" placeholder="car">
           <option>Honda</option>
         </select>
       </div>
-      <div class="form-group home-page">
+      <div class="form-group">
         <select class="form-control" id="exampleFormControlSelect1" placeholder="type">
           <option>Accord</option>
           <option>Civic</option>
@@ -20,7 +23,7 @@
           <option>Euro</option>
         </select>
       </div>
-      <div class="form-group home-page">
+      <div class="form-group">
         <select class="form-control" id="exampleFormControlSelect1" placeholder="price">
           <option>Less than $10,000</option>
           <option>Less than $15,000</option>
@@ -30,19 +33,15 @@
           <option>Less than $35,000</option>
         </select>
       </div>
-      <div class="form-group home-page">
-        <select class="form-control" id="exampleFormControlSelect1" placeholder="location">
-          <option>NSW - All</option>
-          <option>NSW - Central Coast</option>
-          <option>NSW - Central West</option>
-          <option>NSW - Sydney </option>
-          <option>NSW - South Coast</option>
-          <option>NSW - North West</option>
-        </select>
+      <div class="form-group">
+        <i class="fi-target-two"></i>
+        <input type="text" class="form-control " id="exampleFormControlInput1" placeholder="location">
       </div>
-      <button type="button" class="btn btn-primary btn-lg btn-dark home-page">Search Cars</button>
+      <button type="button" class="btn btn-primary btn-lg btn-dark">Search</button>
+      <div class="dealer">
+        <a href="">Do you need help at the dealer?</a>
+      </div>
     </form>
-
 </div>
 
 
@@ -79,8 +78,22 @@ a {
   color: #35495E;
 }
 
+body {
+  padding-bottom: 30px;
+}
+
+.btn {
+  background-color: #35495E
+}
+
 .home-page {
   padding-left: 50px;
   padding-right: 50px;
 }
+
+.dealer {
+  padding-top: 10px;
+}
+
+
 </style>
