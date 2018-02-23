@@ -27,7 +27,7 @@
 </template>
 
 <script>
-  import Tesseract from 'tesseract.js'
+  // import Tesseract from 'tesseract.js'
 
   export default {
     data () {
@@ -57,15 +57,17 @@
     
         return imageCapture.takePhoto().then(blob => {
           this.processing = true;
-          
-          Tesseract.recognize(blob)
-            .progress(message => console.log(message))
-            .catch(err => console.error(err))
-            .then(result => {
-              this.plate = result.text;
-              this.processing = false;
-              this.captured = true;
-            })
+          this.plate = "DDN 29B";
+          this.captured = true;
+          this.processing = false;
+          // Tesseract.recognize(blob)
+          //   .progress(message => console.log(message))
+          //   .catch(err => console.error(err))
+          //   .then(result => {
+          //     this.plate = result.text;
+          //     this.processing = false;
+          //     this.captured = true;
+          //   })
         })
       },
       getInfo () {
@@ -89,7 +91,7 @@
 <style scoped>
     .camera-modal {
       width: 100%;
-      height: 80%;
+      height: 60%;
       top: 20px;
       /* position: absolute; */
       background-color: white;
